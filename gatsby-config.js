@@ -1,4 +1,5 @@
-const siteUrl = "https://fromscratchpress.com/"
+const domain = "fromscratchpress.com"
+const siteUrl = `https://${domain}/`
 
 module.exports = {
   siteMetadata: {
@@ -30,6 +31,12 @@ module.exports = {
         host: siteUrl,
         sitemap: `${siteUrl}sitemap-index.xml`,
         policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain,
       },
     },
     {
