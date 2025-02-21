@@ -11,7 +11,7 @@ const HomePage = () => {
         <p class={styles.subtitle}>Coming soon! Subscribe below for updates.</p>
         <iframe
           title="Substack"
-          src="https://fromscratchdotorg.substack.com/embed"
+          src="https://fromscratchpress.substack.com/embed"
           width="480"
           height="320"
           style={{ border: "1px solid #EEE", background: "white" }}
