@@ -1,0 +1,13 @@
+---
+layout: "base.njk"
+---
+
+<article>
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
+    <p><strong>{{ date }}</strong></p>
+
+    <div class="essay-content">
+        {{ content | safe }}
+    </div>
+</article>

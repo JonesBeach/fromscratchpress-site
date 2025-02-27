@@ -1,0 +1,55 @@
+---
+title: "Rebranding? I hardly knew branding"
+date: 2024-02-27
+description: "Renaming the newsletter, but keeping the chaos."
+tags: essays
+layout: "essay.njk"
+---
+
+Much has changed since I first started this newsletter. I quit my job, started my own business, and have gradually regained control of my brain. While significant themselves, the internal changes feel even more profound than the external changes.
+
+This space fell out of working backwards from my goal to build my technical mentorship business. Knowing I needed to put myself out there, I was torn on whether to write about only technical topics or try to show my full self. I would later learn this is called content marketing and cringe a little.
+
+I landed on running parallel newsletters and launched this one first last July. During the course of my internet-connected millennial upbringing, I’ve had more false starts at blogging than there are run-on sentences in this essay. I was cautiously optimistic. I have a lens now, I told myself. Neurodivergence and, shortly after, self-employment. People like lenses! I told myself, they help you see clearly! My pep talk’s veer into eyewear aside, I believed there was value to sharing stories similar to the ones which helped me as I was uncovering my own late-diagnosed autism.
+
+What came next is still hard to put into words. MASSIVE growth!
+
+lol no.
+
+Many supportive friends and family have hopped aboard and a good number of you have trickled in from Substack. I’m grateful for every one of you who reads. I know my tone doesn’t lend itself to virality and I accept that because it’s mine.
+
+Today, I write because it makes me feel alive. While I still hope to connect with people and grow my business, those now feel more like downstream effects instead of my end-all-be-all. Inspired by a few of my favorite literary fiction novels, I penned a short story in a similar style and my brain reached a gear previously unknown to me. I’m not saying my fiction is good, it’s trope-y and my prose clunky, but I was beginning to feel what people mean when they describe a connection with their creative self.
+
+After a decade of politely asking people to allow me to do work I considered meaningful and feeling disillusioned to learn the world didn’t work that way, discovering this as I was leaving my 9-5 for good was kismet. I was raised as an engineer and I remain an engineer. Even today, what people give me small-ish amounts of money for is my technical guidance, though I hope they also appreciate the empathetic cheerleading I try to emit in their direction.
+
+There’s no way I could be a creative person, right? Not with two engineering degrees and a mechanical keyboard. I’m obviously fooling myself and it’s self-centered to do something outside of my Bureau of Labor Statistics vocation (where, in a nod to the U.S.’s agrarian past, I am classified as a “nonfarm” worker). Time to pack it up and disband my creative pursuits.
+
+Or what if I don’t?
+
+The beauty of the path I am on, the one I have partly strategized into and partly stumbled upon, is I no longer have to define myself narrowly; I just have to keep doing the work that feels meaningful.
+
+If I give more grace to those around me because I’m no longer dependent on them to bring out the most creative version of myself, that’s a win. Though let’s call it like it is: this is a wOrK-iN-pRoGrEsS.
+
+With that in mind, I’m excited to announce two medium-sized things.
+
+## From Scratch Press
+
+I am rebranding this space as From Scratch Press. Let’s be honest: the name From Scratch dot org was always confusing, especially since I didn’t own the domain name or want to pay $5k for it. I liked the joke about this being the non-profit arm of a business which didn’t exist yet and ran with it.
+
+This is truly just a name change; my mission, values, and writing cadence are staying the same.
+
+That said, I will be disrupting the writing cadence.
+
+## Lake-Effect Coffee
+
+I will be spending the next few months turning Lake-Effect Coffee into a finished novella and self-publishing it as an ebook. I will likely still publish some personal essays here in the meantime, but I’ll be taking a few random weeks off to bang out some absurdist fiction as I try to drown out the sound of my clacking radiator with my clacking keystrokes.
+
+I’ll share an update with this newsletter once the book is closer to being a book. If you have recommendations on hiring your first editor or first cover designer or first typesetter or first ink blotter or first literally-anything-related-to-writing-a-book, please send them my way!
+
+***
+
+A large part of me feels silly for treating my work like a real thing. The other part feels like I owe it to myself and the world to do my best work and periodically poke my head out of the sand to share it. The truth is likely somewhere in between and I’ve decided that’s enough.
+
+And I’m not afraid of a barrage of negative feedback anymore! said the owl with zero comments. Speaking of, please be kind. And rewind.
+
+I hope you are well! And if not, hang in there.
