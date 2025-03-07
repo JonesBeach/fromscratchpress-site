@@ -1,0 +1,99 @@
+---
+title: "Lake-Effect Coffee, Chapter 4"
+date: 2025-02-10
+description: "Feeling stuck."
+tags: essays
+layout: "essay.njk"
+---
+
+One week since our saccharine evening exchange with Morgan and her La Marzocco. I have done nothing since my morning meeting, where I dutifully reported that I was looking into Task C while I waited on Person B to get back to me regarding Issue A. No blockers.
+
+Lunch soon?
+
+As every mental health guide worth its sodium says, “A quick walk may help.”
+
+Okay sure.
+
+I’ll be sure to do that as soon as I snap out of this…funk? Freeze? What is the word for when your mental health is great except when you find yourself in an invalidating environment (most of them!), including the one that pays your bills? Funk it is.
+
+No pings on the coffee Slack today or since Matthew carried home our espresso maker. I hope the Italian appliance sitting in their home gives them the daily reminder of our investment the way the van sitting in my driveway does. Should I text them? I can wait a few more days. They are probably dealing with something and I don’t want to get in the way. When I ride in their backseat, the words fall from my brain into the conversation. Is this how other people feel always? That someone will listen?
+
+I could pick up pizza, but that place is always crowded. That sweet sauce though. And the seat by the window, if it’s open, which it never is. But maybe today? Eh, I don’t know.
+
+Is it a funk or am I actually fine? I’m not having panic attacks! My doctor gave me a Clean Executive Order of Health. Which I assume is like a Clean Bill of Health but, by skipping the legislative branch, is based on nothing but my doc’s confidence. I wonder what it’s like to feel like you are helping people in 20-minute increments throughout your work day. It sounds nice but I bet there’s entire days spent in insurance trainings and prescription drug seminars. I’d probably hate that job too. Knowing me, I’d look for a more social job, feel drained before lunch on the first day, and spend the afternoon hiding in the stairwell. Naturally, the alternative is to sit here and speak to no one. And who says the world lacks nuance.
+
+Could it be any work where I don’t get to work at my brain’s natural speed? That leads to my…funk? Or is that just a roundabout way of saying I crave aUtOnOmY? The clock in the bottom right corner of my computer monitor says 11:58. The pizza place is probably crowded now with the noon rush. I can wait a few minutes.
+
+So I do what, just sit tight and accept my stability? Instead of another podcast interview about the loneliness epidemic, we can host a debate between my extended family (“You are fortunate to have such a stable job!”) and that one loud person from the happy hour I made an appearance at last year (“Everyone hates their job!”). Stay tuned after the break! [sounds from an Airbnb host playing fisticuffs with a Vrbo host.] I told them I wasn’t sure that ad translated well into audio, but the two vacation rental marketplaces set their gloves aside temporarily and funded the entire episode. Follow the money, advice for investigative reporters, podcast producers, and office workers, it seems.
+
+That happy hour was weird. I had already implemented my “you don’t have to force yourself to smile or make eye contact” rule, but I didn’t yet have my “avoid group conversations at all costs” rule. If anyone noticed the guy staring at his fingernails at the end of the table, I can chalk it up to an uncomfortable transition period in my social guidelines. Today, I would politely stand in the corner. I do want to ask her though: since everyone hates their job, we do what? Just accept this state of things? Would the therapists union be thrilled to hear we’ve all collectively decided the status quo is fine? Channeling my extremely charitable views towards confident people, I’d have her read this entire chapter aloud and see if she’s still able to dismiss my experience offhand like that.
+
+But she was speaking in a group! the host says. You can’t take what she says seriously! It will eat you up!
+
+Good point! I say. So why do we organize ourselves in groups again?
+
+It seems that my legs are moving. Somewhere between having my chapter read aloud and jousting with the host, I appeared to have begun the march towards food. Forward momentum at last! I feel confident enough to look people in the eyes today, but not confident to say anything. I’m giving off a look that says Psst…do you agree this box we’re existing inside is ridiculous too?
+
+Once the elevator doors open and I poke my head into the lobby, I find my eyes darting between a worker carrying a salad, another with two coffee cups, a third with a pizza box from the pizza place. None return my gaze. Would they notice if I lightly walked into the support beam? It seems not. Would they notice the engineering marvel if the support beam wasn’t there one day yet the building remained standing? I’m also guessing not. In another reality, the office building defies physics and I’m high-fiving and butt-slapping each of the lunch-goers. Did you get your Ranch on the side? I hope they weren’t out of pepperoni!
+
+Would you agree that expecting life to be like a musical scene from a movie is setting yourself up for disappointment? the host interjects.
+
+Are we still recording?! At some point, I seem to have donned a headset and started dragging a cord behind me. The hungry, hungry workers in the lobby don’t either.
+
+I clear my throat to respond.
+
+I have nothing.
+
+With the cord thumping along each concrete seam of the crowded sidewalk, I proceed slowly towards the pizza place. Was pizza what I decided? If it’s not too crowded. And if it is? Don’t stop, don’t slow down, don’t eat? That sounds like a plan.
+
+I catch sight of a professional out of the corner of my eye. Wearing khakis and a baggy navy sweater, they seem to be looking my direction. Could someone have noticed me?! I turn my head to check, and their head turns along with mine.
+
+Staring back at me from the reflection in the plate glass window is a version of myself I hardly recognize. Someone dressed to participate in the white-collar economy, supporting themselves through their daily check-ins and time sheet submissions.
+
+There was a time when I was 9 or 10 when the face looking back from the mirror was my father on his way to a career retraining program after his button factory job was sent to Laos. With one hand steadying the knot, he tightened his tie, first try no less, and patted me on the shoulder. He hid it well, but looking back I can feel the shame he felt of having to start over.
+
+When we drove by in later years, he would point out the concrete block community college, where “they taught me to answer the phone.” Built on the last acre of farmland before the freeway interchange, the campus sat vacantly in a sea of parking spaces that always seemed empty.
+
+Working in customer service for a major retailer’s rewards credit card allowed us to keep the house, but it was obvious even to my teenage self he despised it. In RadioShack one Sunday afternoon, he put on a telephone headset and said, “NASA Mission Control? You must have the wrong number. I can look into why your point balance isn’t showing up.”
+
+I respect that he could poke fun at himself, but he was humiliated. Not that he loved making buttons, he loved making something.
+
+The pamphlet that sat on the dining room table for six weeks made job retraining sound exciting. Your next chapter starts now. Given I was still a few years away from graduating elementary school, I wondered if my dad had just started middle school. Were there bullies? Did he like his teachers? He didn’t seem to want to talk about it.
+
+Yet here I am moaning while bringing home a steady paycheck. That’s what us in the therapy biz call cognitive dissonance.
+
+There’s no line at the pizza place! I order a slice. I tap my credit card and say thanks to the person who checks me out once a week or so but doesn’t seem to recognize me. The seat by the window is open and I settle in, keeping my jacket on mostly out of expediency.
+
+Time for my daily incantations.
+
+yes, I am grateful for my paycheck.
+
+yes, I am fortunate that if I were part of a downsizing tomorrow, I could make ends meet for a few months.
+
+no, I am not faking it.
+
+no, I do not feel autonomous or effective day-to-day.
+
+yes, I feel isolated.
+
+yes, I am serious about rebuilding my life around the coffee van.
+
+With that off my chest, my feelings of guilt recede temporarily. It’s okay to want more, right? To want to be able to use my skills and my voice? And I don’t mean “my voice is a platform for change,” I mean to make sounds come from my vocal chords while doing the thing they pay me for. Or does “everyone hate their job,” with no hope, no communication as the unspoken social contract of our middle class (which, according to my dad’s retraining pamphlet, is among the world’s largest)?
+
+I pull out my phone to open an e-book and find a text from Matthew.
+
+“We miss you. Dinner tonight?”
+
+A grin creeps across my freshly-shaved face. I nudge the man sitting next to me, another office worker according to his attire, with my elbow, “Did you hear the news? I’m getting dinner tonight!”
+
+“That’s awesome, man! I’m happy for you!” We embrace in an intense man-hug.
+
+I deposit my tray at the counter and the cashier throws me a thumbs up straight out of NASA Mission Control after a successful re-entry. “Love to see it!” I fire my finger guns in their direction.
+
+I step back out onto the sidewalk, suddenly a participant again.
+
+A mail carrier’s head spins in my direction. “Did they have pepperoni?”
+
+“Perfectly crisp! Get some while you can!”
+
+I gently land a fist bump, their fingerless work glove scraping against the feathery-soft hand of a professional email over-thinker. They wink, and I pick up the pace. I have somewhere to be.

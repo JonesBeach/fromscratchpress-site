@@ -83,6 +83,13 @@ article .essay-description {
     margin-bottom: 20px;
 }
 
+article p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #444;
+    text-align: justify;
+}
+
 /* Essay metadata */
 article p strong {
     display: block;
@@ -117,14 +124,14 @@ blockquote {
 }
 
 /* Links */
-.essay-content a {
+a {
     color: #0073e6;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.2s;
 }
 
-.essay-content a:hover {
+a:hover {
     color: #005bb5;
 }
 
