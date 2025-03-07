@@ -1,154 +1,223 @@
 /* General Reset */
 body {
-    font-family: 'Merriweather', serif;
-    color: #333;
-    background-color: #fafafa;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+  font-family: 'Merriweather', serif;
+  color: #333;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 /* Container for layout */
 .container {
-    display: flex;
-    max-width: 1200px;
-    width: 100%;
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
 }
 
 /* Sidebar navigation */
 nav {
-    width: 220px;
-    padding: 20px;
-    position: fixed;
-    height: 100%;
-    background: #f4f4f4;
-    border-right: 1px solid #ddd;
+  width: 220px;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+  background: #f4f4f4;
+  border-right: 1px solid #ddd;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 nav ul li {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
-    font-weight: 600;
-    transition: color 0.2s;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.2s;
 }
 
 nav ul li a:hover {
-    color: #0073e6;
+  color: #0073e6;
 }
 
 /* Main content area */
 main {
-    margin-left: 250px;
-    max-width: 800px;
-    width: 100%;
-    padding: 40px;
+  margin-left: 250px;
+  max-width: 800px;
+  width: 100%;
+  padding: 40px;
 }
 
 /* Essay container */
 article {
-    max-width: 700px;
-    margin: 0 auto;
-    background: white;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Essay title */
 article h1 {
-    font-size: 2.4rem; /* Larger for more presence */
-    text-align: center;
-    margin-bottom: 5px; /* Tighter connection to the description */
-    font-weight: 700; /* Make it pop more */
-    color: #222;
+  font-size: 2.4rem;
+  /* Larger for more presence */
+  text-align: center;
+  margin-bottom: 5px;
+  /* Tighter connection to the description */
+  font-weight: 700;
+  /* Make it pop more */
+  color: #222;
 }
 
 /* Essay description */
 article .essay-description {
-    font-size: 1.1rem; /* Smaller than the title for hierarchy */
-    text-align: center;
-    color: #666; /* Lighter for contrast */
-    font-style: italic; /* Adds a subtle modern touch */
-    margin-bottom: 20px;
+  font-size: 1.1rem;
+  /* Smaller than the title for hierarchy */
+  text-align: center;
+  color: #666;
+  /* Lighter for contrast */
+  font-style: italic;
+  /* Adds a subtle modern touch */
+  margin-bottom: 20px;
 }
 
 article p {
-    font-size: 1.2rem;
-    line-height: 1.7;
-    color: #444;
-    text-align: justify;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #444;
+  text-align: justify;
 }
 
 /* Essay metadata */
 article p strong {
-    display: block;
-    text-align: center;
-    font-size: 0.9rem;
-    color: #666;
-    margin-bottom: 15px;
+  display: block;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 15px;
 }
 
 /* Horizontal line */
 hr {
-    margin: 30px 0;
-    border: 0;
-    height: 1px;
-    background: #ddd;
+  margin: 30px 0;
+  border: 0;
+  height: 1px;
+  background: #ddd;
 }
 
 /* Essay content */
 .essay-content {
-    font-size: 1.15rem;
-    line-height: 1.8;
-    color: #222;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #222;
 }
 
 /* Blockquotes */
 blockquote {
-    font-style: italic;
-    color: #555;
-    padding: 10px 20px;
-    border-left: 4px solid #0073e6;
-    margin: 20px 0;
+  font-style: italic;
+  color: #555;
+  padding: 10px 20px;
+  border-left: 4px solid #0073e6;
+  margin: 20px 0;
 }
 
 /* Links */
 a {
-    color: #0073e6;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.2s;
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
 }
 
 a:hover {
-    color: #005bb5;
+  color: #005bb5;
 }
 
 /* Responsive Styles */
 @media screen and (max-width: 900px) {
-    nav {
-        width: 100%;
-        position: relative;
-        border-right: none;
-    }
+  nav {
+    width: 100%;
+    position: relative;
+    border-right: none;
+  }
 
-    main {
-        margin-left: 0;
-        padding: 20px;
-    }
+  main {
+    margin-left: 0;
+    padding: 20px;
+  }
 
-    article {
-        padding: 20px;
-    }
+  article {
+    padding: 20px;
+  }
+}
+
+/* Container for the essays grid */
+.essays-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  /* Default to single column */
+  gap: 20px;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Individual essay item */
+.essay-item {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.essay-item:hover {
+  transform: translateY(-3px);
+}
+
+/* Essay title */
+.essay-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0073e6;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+  transition: color 0.2s ease;
+}
+
+.essay-title:hover {
+  color: #005bb5;
+}
+
+/* Essay description */
+.essay-description {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 5px;
+  line-height: 1.6;
+}
+
+/* Essay date */
+.essay-date {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Responsive grid for larger screens */
+@media screen and (min-width: 768px) {
+  .essays-list {
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns on desktop */
+  }
 }
