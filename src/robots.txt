@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://fromscratchpress.com/sitemap.xml
+Host: https://fromscratchpress.com

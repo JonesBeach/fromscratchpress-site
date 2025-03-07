@@ -1,6 +1,6 @@
 ---
 title: "Rebranding? I hardly knew branding"
-date: 2024-02-27
+date: 2025-02-27
 description: "Renaming the newsletter, but keeping the chaos."
 tags: essays
 layout: "essay.njk"

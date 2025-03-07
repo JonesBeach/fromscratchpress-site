@@ -1,28 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/@hotwired/turbo"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon-512x512.png" sizes="512x512" type="image/png">
+  <link rel="apple-touch-icon" href="/favicon-512x512.png">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description or site.description }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}/og_banner_image.png">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ description or site.description }}">
+  <meta name="twitter:image" content="{{ site.url }}/og_banner_image.png">
+
+  <script src="https://unpkg.com/@hotwired/turbo"></script>
 </head>
+
 <body>
-    <div class="container">
-        <nav>
-            <ul>
-                <li><a href="/">from scratch press</a></li>
-                <li><a href="/about/">about</a></li>
-                <li><a href="/books/">books</a></li>
-                <li><a href="/essays/">essays</a></li>
-                <li><a href="/subscribe/">subscribe</a></li>
-            </ul>
-        </nav>
-        <main>
-            {{ content | safe }}
-        </main>
-    </div>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="/">from scratch press</a></li>
+        <li><a href="/about/">about</a></li>
+        <li><a href="/essays/">essays</a></li>
+        <li><a href="/books/">books</a></li>
+        <li><a href="/subscribe/">subscribe</a></li>
+      </ul>
+    </nav>
+    <main>
+      {{ content | safe }}
+    </main>
+  </div>
 </body>
+
 </html>
