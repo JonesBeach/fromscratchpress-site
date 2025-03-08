@@ -13,11 +13,11 @@ If you’re into software, I also write and offer personalized mentorship at [Fr
 
 Keep your Substack, own your web traffic.
 
-Contact me for rates and availability.
+[Contact me]({{ site.contactUrl }}) for rates and availability.
 
 ## Contact & Legal
 
-[Contact Tyler via From Scratch Code](https://fromscratchcode.com/contact/)
+Contact Tyler via [From Scratch Code]({{ site.contactUrl }})
 
 &copy; <span id="year"></span> From Scratch Enterprises LLC
 

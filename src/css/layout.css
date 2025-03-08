@@ -6,7 +6,7 @@
 
 /* Sidebar navigation */
 nav {
-  width: 180px;
+  width: var(--nav-width);
   padding: var(--spacing-large);
   position: fixed;
   height: 100%;
@@ -38,7 +38,7 @@ nav ul li a:hover {
 /* Main content area */
 main {
   width: 100%;
-  margin-left: 240px;
+  margin-left: calc(var(--nav-width) + 2 * var(--spacing-large));
   /* Same as the nav width + 2 * --spacing-large */
   padding: var(--spacing-large);
 
