@@ -9,6 +9,12 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "watch": "eleventy --watch",
+    "prod": "NODE_ENV=production eleventy"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0"
   },
