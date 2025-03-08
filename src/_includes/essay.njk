@@ -5,7 +5,7 @@ layout: "base.njk"
 <article>
     <h1>{{ title }}</h1>
     <p class="essay-description">{{ description }}</p>
-    <p><strong>{{ date | essayDateFormat }}</strong></p>
+    <p class="essay-metadata">{{ date | essayDateFormat }}</p>
 
     <div class="essay-content">
         {{ content | safe }}

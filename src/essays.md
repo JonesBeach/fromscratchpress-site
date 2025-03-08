@@ -8,7 +8,7 @@ layout: "page.njk"
     <li class="essay-item">
       <a href="{{ post.url }}" class="essay-title">{{ post.data.title }}</a>
       <p class="essay-description">{{ post.data.description }}</p>
-      <p class="essay-date">{{ post.date | essayDateFormat }}</p>
+      <div class="essay-date">{{ post.date | essayDateFormat }}</div>
     </li>
   {%- endfor -%}
 </ul>
