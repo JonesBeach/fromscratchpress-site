@@ -1,8 +1,18 @@
 ---
 title: "from scratch press"
-layout: "base.njk"
+layout: "page.njk"
 ---
 
-Welcome to **From Scratch Press**!
+Essays on neurodivergence, meaningful work, and building a life that fits.
 
-I was diagnosed with autism at 31 and left my 9-5 at 33. Now I'm a technical mentor and writer. Your mileage may vary.
+<ul class="essays-list">
+  {%- for post in collections.latestEssays -%}
+    <li class="essay-item">
+      <a href="{{ post.url }}" class="essay-title">{{ post.data.title }}</a>
+      <p class="essay-description">{{ post.data.description }}</p>
+      <p class="essay-date">{{ post.date | essayDateFormat }}</p>
+    </li>
+  {%- endfor -%}
+</ul>
+
+### [See All](/essays/)

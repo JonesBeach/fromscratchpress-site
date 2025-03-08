@@ -11,6 +11,11 @@ module.exports = function(eleventyConfig) {
     return collectionApi.getFilteredByTag("essays").reverse();
   });
 
+  // Sliced collection for homepage
+  eleventyConfig.addCollection("latestEssays", function(collectionApi) {
+    return collectionApi.getFilteredByTag("essays").reverse().slice(0, 4);
+  });
+
   // Add sitemap plugin
   eleventyConfig.addPlugin(sitemap, {
     sitemap: {
