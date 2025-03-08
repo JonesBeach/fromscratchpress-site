@@ -1,5 +1,5 @@
 ---
-title: "Subscribe"
+title: "subscribe"
 layout: "page.njk"
 ---
 

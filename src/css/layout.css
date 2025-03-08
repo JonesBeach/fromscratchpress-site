@@ -1,13 +1,12 @@
 /* Container for layout */
 .container {
   display: flex;
-  max-width: 1200px;
   width: 100%;
 }
 
 /* Sidebar navigation */
 nav {
-  width: 220px;
+  width: 180px;
   padding: var(--spacing-large);
   position: fixed;
   height: 100%;
@@ -38,17 +37,27 @@ nav ul li a:hover {
 
 /* Main content area */
 main {
-  margin-left: 290px;
-  max-width: 800px;
-  width: 100%;
+  margin-left: 240px;
+  /* Same as the nav width + 2 * --spacing-large */
   padding: var(--spacing-large);
+
+  /* Center it horizontally in the remaining space */
+  display: flex;
+  justify-content: center;
+}
+
+/* Inner container to prevent content from stretching too wide */
+.main-inner {
+  max-width: 80%;
+  min-width: 500px;
 }
 
 /* Essays Grid */
 .essays-list {
   list-style: none;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  /* Two columns on desktop */
   gap: var(--spacing-large);
   padding: 0;
   margin: 0 auto;
@@ -59,36 +68,25 @@ main {
   grid-column: span 2;
 }
 
-@media screen and (min-width: 768px) {
-  .essays-list {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Responsive Styles */
-@media screen and (max-width: 900px) {
-  nav {
-    width: 100%;
-    position: relative;
-    border-right: none;
-  }
-
-  main {
-    margin-left: 0;
-    padding: var(--spacing-medium);
-  }
-
-  article {
-    padding: var(--spacing-medium);
-  }
-}
-
 /* Hamburger menu */
 .mobile-nav {
   display: none;
 }
 
 @media screen and (max-width: 768px) {
+  main {
+    margin-left: 0;
+  }
+
+  .main-inner {
+    max-width: 100%;
+    /* Let it stretch on small screens */
+  }
+
+  article {
+    padding: var(--spacing-medium);
+  }
+
   nav {
     display: none;
     position: absolute;
@@ -109,10 +107,20 @@ main {
   .mobile-nav {
     display: block;
     position: absolute;
-    top: 15px;
-    right: 25px;
+    top: 35px;
+    right: 45px;
     font-size: 2rem;
     cursor: pointer;
     z-index: 20;
+  }
+
+  .essays-list {
+    grid-template-columns: 1fr;
+    /* Single column on mobile */
+  }
+
+  .featured-essay {
+    grid-column: span 1;
+    /* Don't span two columns on mobile */
   }
 }
