@@ -13,8 +13,14 @@ module.exports = function(eleventyConfig) {
 
   // Sliced collection for homepage
   eleventyConfig.addCollection("latestEssays", function(collectionApi) {
-    return collectionApi.getFilteredByTag("essays").reverse().slice(0, 4);
+    return collectionApi.getFilteredByTag("essays").reverse().slice(0, 2);
   });
+
+  // One featured post
+  eleventyConfig.addCollection("featuredEssay", function(collectionApi) {
+    return collectionApi.getFilteredByTag("featured")[0]; // take the first one
+  });
+
 
   // Add sitemap plugin
   eleventyConfig.addPlugin(sitemap, {
