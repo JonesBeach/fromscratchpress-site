@@ -37,6 +37,7 @@ nav ul li a:hover {
 
 /* Main content area */
 main {
+  width: 100%;
   margin-left: 240px;
   /* Same as the nav width + 2 * --spacing-large */
   padding: var(--spacing-large);
@@ -48,8 +49,7 @@ main {
 
 /* Inner container to prevent content from stretching too wide */
 .main-inner {
-  max-width: 80%;
-  min-width: 500px;
+  width: 80%;
 }
 
 /* Essays Grid */
@@ -66,6 +66,7 @@ main {
 
 .featured-essay {
   grid-column: span 2;
+  border: 2px solid var(--color-border);
 }
 
 /* Hamburger menu */
@@ -79,7 +80,7 @@ main {
   }
 
   .main-inner {
-    max-width: 100%;
+    width: 100%;
     /* Let it stretch on small screens */
   }
 

@@ -9,6 +9,12 @@ From Scratch Press is where I share essays about my inner life, meaningful work,
 
 If you’re into software, I also write and offer personalized mentorship at [From Scratch Code](https://fromscratchcode.com).
 
+## Want a site like this?
+
+Keep your Substack, own your web traffic.
+
+Contact me for rates and availability.
+
 ## Contact & Legal
 
 [Contact Tyler via From Scratch Code](https://fromscratchcode.com/contact/)
