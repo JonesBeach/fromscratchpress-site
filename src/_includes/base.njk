@@ -33,7 +33,8 @@
 
 <body>
   <div class="container">
-    <nav>
+    <div class="mobile-nav" onclick="toggleNav()">☰</div>
+    <nav id="main-nav">
       <ul>
         <li><a href="/">from scratch press</a></li>
         <li><a href="/about/">about</a></li>
@@ -46,6 +47,12 @@
       {{ content | safe }}
     </main>
   </div>
+  <script>
+    function toggleNav() {
+      const nav = document.getElementById('main-nav');
+      nav.classList.toggle('nav-open');
+    }
+  </script>
 </body>
 
 </html>

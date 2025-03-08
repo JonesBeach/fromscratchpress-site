@@ -1,80 +1,114 @@
 /* Container for layout */
 .container {
-    display: flex;
-    max-width: 1200px;
-    width: 100%;
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
 }
 
 /* Sidebar navigation */
 nav {
-    width: 220px;
-    padding: var(--spacing-large);
-    position: fixed;
-    height: 100%;
-    background: #f4f4f4;
-    border-right: 1px solid var(--color-border);
+  width: 220px;
+  padding: var(--spacing-large);
+  position: fixed;
+  height: 100%;
+  background: #f4f4f4;
+  border-right: 1px solid var(--color-border);
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 nav ul li {
-    margin-bottom: var(--spacing-medium);
+  margin-bottom: var(--spacing-medium);
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: var(--color-text);
-    font-size: 18px;
-    font-weight: 600;
-    transition: color 0.2s;
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.2s;
 }
 
 nav ul li a:hover {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 /* Main content area */
 main {
-    margin-left: 290px;
-    max-width: 800px;
-    width: 100%;
-    padding: var(--spacing-large);
+  margin-left: 290px;
+  max-width: 800px;
+  width: 100%;
+  padding: var(--spacing-large);
 }
 
 /* Essays Grid */
 .essays-list {
   list-style: none;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--spacing-large);
-    padding: 0;
-    margin: 0 auto;
-    max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-large);
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 @media screen and (min-width: 768px) {
-    .essays-list {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .essays-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Responsive Styles */
 @media screen and (max-width: 900px) {
-    nav {
-        width: 100%;
-        position: relative;
-        border-right: none;
-    }
+  nav {
+    width: 100%;
+    position: relative;
+    border-right: none;
+  }
 
-    main {
-        margin-left: 0;
-        padding: var(--spacing-medium);
-    }
+  main {
+    margin-left: 0;
+    padding: var(--spacing-medium);
+  }
 
-    article {
-        padding: var(--spacing-medium);
-    }
+  article {
+    padding: var(--spacing-medium);
+  }
+}
+
+/* Hamburger menu */
+.mobile-nav {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #f4f4f4;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    z-index: 10;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .nav-open {
+    display: block;
+  }
+
+  .mobile-nav {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 20;
+  }
 }
