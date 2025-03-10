@@ -49,6 +49,7 @@ main {
 /* Inner container to prevent content from stretching too wide */
 .main-inner {
   width: 80%;
+  max-width: 1200px;
 }
 
 /* Essays Grid */
@@ -60,7 +61,6 @@ main {
   gap: var(--spacing-large);
   padding: 0;
   margin: 0 auto;
-  max-width: 1200px;
 }
 
 .featured-essay {
