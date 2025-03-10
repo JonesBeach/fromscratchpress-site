@@ -15,7 +15,7 @@ You may know me as Jones Beach—a place in New York I've never been—on [Subst
 
 ## Want a site like this?
 
-I built this from scratch, and I’m available for freelance work if you need help setting up your own. I’d be happy to help you take control of your web traffic without disrupting your Substack.
+I built this from scratch using [Eleventy](https://www.11ty.dev/), and I’m available for freelance work if you need help setting up your own. I’d be happy to help you take control of your web traffic without disrupting your Substack.
 
 [Contact me]({{ site.contactUrl }}) for rates and availability.
 
