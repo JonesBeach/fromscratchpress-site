@@ -107,21 +107,21 @@
 <body>
   <div class="mobile-nav">
     <div class="mobile-nav-inner">
-      <span class="site-title">{{ site.title }}</span>
+      <span class="site-title"><a href="/">{{ site.title }}</a></span>
       <div class="hamburger" onclick="toggleNav()">☰</div>
     </div>
   </div>
+  <nav id="main-nav">
+    <ul>
+      <li><a href="/">{{ site.title }}</a></li>
+      <li><a href="/about/">about</a></li>
+      <li><a href="/essays/">essays</a></li>
+      <li><a href="/books/">books</a></li>
+      <li><a href="/subscribe/">subscribe</a></li>
+    </ul>
+  </nav>
 
   <div class="container">
-    <nav id="main-nav">
-      <ul>
-        <li><a href="/">{{ site.title }}</a></li>
-        <li><a href="/about/">about</a></li>
-        <li><a href="/essays/">essays</a></li>
-        <li><a href="/books/">books</a></li>
-        <li><a href="/subscribe/">subscribe</a></li>
-      </ul>
-    </nav>
     <main>
       <div class="main-inner">
         {{ content | safe }}

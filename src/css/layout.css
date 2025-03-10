@@ -9,6 +9,7 @@ nav {
   width: var(--nav-width);
   padding: var(--spacing-large);
   position: fixed;
+  left: 0;
   height: 100%;
   background: #f4f4f4;
   border-right: 1px solid var(--color-border);
@@ -49,7 +50,7 @@ main {
 /* Inner container to prevent content from stretching too wide */
 .main-inner {
   width: 80%;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 /* Essays Grid */
@@ -78,7 +79,7 @@ main {
   padding: var(--spacing-small);
   background-color: #f4f4f4;
   border-bottom: 1px solid var(--color-border);
-  z-index: 20;
+  z-index: 10;
   box-sizing: border-box;
   /* Prevent overflow from padding */
 }
@@ -94,6 +95,15 @@ main {
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--color-text);
+}
+
+.site-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-title a:hover {
+  color: inherit;
 }
 
 .hamburger {
@@ -127,16 +137,24 @@ main {
   }
 
   nav {
+    margin-top: var(--spacing-medium);
     display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
     background: #f4f4f4;
     width: 100%;
     height: auto;
-    padding: 20px;
-    z-index: 10;
+    z-index: 5;
     border-bottom: 1px solid #ddd;
+    border-right: 0;
+    padding: var(--spacing-medium);
+    box-sizing: border-box;
+  }
+
+  nav ul {
+    margin: 0;
+  }
+
+  nav ul li a {
+    font-size: 1.5rem;
   }
 
   .nav-open {
