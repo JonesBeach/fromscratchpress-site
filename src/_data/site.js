@@ -13,4 +13,9 @@ module.exports = {
   codeUrl,
   personalUrl,
   contactUrl: `${codeUrl}/contact/`,
+  logoUrl: `${url}/favicon-512x512.png`,
+  substackUrl: "https://fromscratchpress.substack.com/",
+  linkedInUrl: "https://www.linkedin.com/in/tylergreen/",
+  fromScratchGithubUrl: "https://github.com/JonesBeach",
+  personalGithubUrl: "https://github.com/tyleragreen",
 };

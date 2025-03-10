@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>{{ title }}</title>
+  <title>{{ title if title else site.title }}{% if title %} | {{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ description or site.description }}">
   <meta name="author" content="{{ site.author }}">
 
@@ -34,17 +34,88 @@
 
   <!-- Canonical URL -->
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "{{ site.title }}",
+          "url": "{{ site.url }}",
+          "logo": "{{ site.logoUrl }}",
+          "description": "{{ site.description }}",
+          "sameAs": [
+            "{{ site.substackUrl }}",
+          ],
+          "publishingPrinciples": "{{ site.url }}/about/",
+          "founder": {
+            "@type": "Person",
+            "name": "{{ site.author }}",
+            "url": "{{ site.personalUrl }}",
+            "jobTitle": "Founder and Writer",
+            "sameAs": [
+              "{{ site.substackUrl }}",
+              "{{ site.linkedInUrl }}",
+              "{{ site.personalGithubUrl }}",
+              "{{ site.fromScratchGithubUrl }}",
+              "{{ site.codeUrl }}",
+              "{{ site.personalUrl }}"
+            ]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "name": "{{ site.title }}",
+          "url": "{{ site.url }}",
+          "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.title }}"
+          }
+        },
+        {
+          "@type": "Article",
+          "headline": "{{ title }}",
+          "description": "{{ description or site.description }}",
+          "author": {
+            "@type": "Person",
+            "name": "{{ site.author }}",
+            "url": "{{ site.personalUrl }}"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.title }}",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "{{ site.logoUrl }}"
+            }
+          },
+          "datePublished": "{{ page.date | essayDateFormat }}",
+          "dateModified": "{{ page.date | essayDateFormat }}",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ site.url }}{{ page.url }}"
+          }
+        }
+      ]
+    }
+  </script>
 
   <script src="https://unpkg.com/@hotwired/turbo"></script>
   <script defer data-domain="{{ site.domain }}" src="https://plausible.io/js/script.outbound-links.js"></script>
 </head>
 
 <body>
+  <div class="mobile-nav">
+    <div class="mobile-nav-inner">
+      <span class="site-title">{{ site.title }}</span>
+      <div class="hamburger" onclick="toggleNav()">☰</div>
+    </div>
+  </div>
+
   <div class="container">
-    <div class="mobile-nav" onclick="toggleNav()">☰</div>
     <nav id="main-nav">
       <ul>
-        <li><a href="/">from scratch press</a></li>
+        <li><a href="/">{{ site.title }}</a></li>
         <li><a href="/about/">about</a></li>
         <li><a href="/essays/">essays</a></li>
         <li><a href="/books/">books</a></li>

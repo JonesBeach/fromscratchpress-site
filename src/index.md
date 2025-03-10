@@ -1,7 +1,8 @@
 ---
-title: "from scratch press"
-layout: "page.njk"
+layout: "base.njk"
 ---
+
+<h1 class="index-title">{{ site.title }}</h1>
 
 Essays on neurodivergence, meaningful work, and building a life that fits.
 
