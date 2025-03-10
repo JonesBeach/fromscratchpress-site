@@ -28,6 +28,9 @@
   <meta name="twitter:description" content="{{ description or site.description }}">
   <meta name="twitter:image" content="{{ site.url }}/og_banner_image.png">
 
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
   <script src="https://unpkg.com/@hotwired/turbo"></script>
   <script defer data-domain="{{ site.domain }}" src="https://plausible.io/js/script.outbound-links.js"></script>
 </head>
