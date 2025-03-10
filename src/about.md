@@ -3,15 +3,19 @@ title: "about"
 layout: "page.njk"
 ---
 
-Hey, I’m [Tyler]({{ site.personalUrl }}). I’m a software engineer and writer. I write about neurodivergence, self-employment, and, basically, figuring out how to build a life that fits.
+Hey, I’m [Tyler]({{ site.personalUrl }}). I’m a software engineer and writer.
 
-From Scratch Press is where I share essays about my inner life, meaningful work, and the absurdity of it all. If that resonates, you can [subscribe here](/subscribe/).
+I write about neurodivergence, meaningful work, and figuring out how to build a life that fits.
 
-If you’re into software, I also write and offer personalized mentorship at [From Scratch Code]({{ site.codeUrl }}).
+From Scratch Press is where I share essays about my inner life, self-employment, and the absurdity of it all. If that resonates, you can [subscribe here]({{ site.subscribeUrl }}).
+
+I write and offer personalized mentorship at [From Scratch Code]({{ site.codeUrl }}).
+
+You may know me as Jones Beach—a place in New York I've never been—on [Substack]({{ site.substackProfileUrl }}) and [GitHub]({{ site.fromScratchGithubUrl }}).
 
 ## Want a site like this?
 
-Keep your Substack, own your web traffic.
+I built this from scratch, and I’m available for freelance work if you need help setting up your own. I’d be happy to help you take control of your web traffic without disrupting your Substack.
 
 [Contact me]({{ site.contactUrl }}) for rates and availability.
 
