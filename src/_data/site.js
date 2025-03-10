@@ -7,6 +7,7 @@ module.exports = {
   title: "from scratch press",
   author: "Tyler Green",
   description: "Essays on neurodivergence, meaningful work, and building a life that fits.",
+  legalName: "From Scratch Enterprises LLC",
   url,
   domain,
   codeUrl,

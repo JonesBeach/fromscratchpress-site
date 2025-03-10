@@ -19,7 +19,7 @@ Keep your Substack, own your web traffic.
 
 Contact me via [From Scratch Code]({{ site.contactUrl }})
 
-&copy; <span id="year"></span> From Scratch Enterprises LLC
+&copy; <span id="year"></span> {{ site.legalName }}
 
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
