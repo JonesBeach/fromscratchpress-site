@@ -1,0 +1,67 @@
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "{{ site.title }}",
+          "url": "{{ site.url }}",
+          "logo": "{{ site.logoUrl }}",
+          "description": "{{ site.description }}",
+          "sameAs": [
+            "{{ site.substackUrl }}"
+          ],
+          "publishingPrinciples": "{{ site.url }}/about/",
+          "founder": {
+            "@type": "Person",
+            "name": "{{ site.author }}",
+            "url": "{{ site.personalUrl }}",
+            "jobTitle": "Founder and Writer",
+            "sameAs": [
+              "{{ site.substackUrl }}",
+              "{{ site.linkedInUrl }}",
+              "{{ site.personalGithubUrl }}",
+              "{{ site.fromScratchGithubUrl }}",
+              "{{ site.codeUrl }}",
+              "{{ site.personalUrl }}"
+            ]
+          }
+        },
+        {
+          "@type": "WebSite",
+          "name": "{{ site.title }}",
+          "url": "{{ site.url }}",
+          "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.title }}"
+          }
+        {%- if layout == 'essay.njk' -%}
+        },
+        {
+          "@type": "Article",
+          "headline": "{{ title | safe }}",
+          "description": "{{ description | safe }}",
+          "author": {
+            "@type": "Person",
+            "name": "{{ site.author }}",
+            "url": "{{ site.personalUrl }}"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.title }}",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "{{ site.logoUrl }}"
+            }
+          },
+          "datePublished": "{{ page.date | essayDateFormat }}",
+          "dateModified": "{{ page.date | essayDateFormat }}",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ site.url }}{{ page.url }}"
+          }
+        {%- endif -%}
+        }
+      ]
+    }
+  </script>

@@ -9,16 +9,6 @@
   <meta name="description" content="{{ description or site.description }}">
   <meta name="author" content="{{ site.author }}">
 
-  <link rel="stylesheet" href="/css/base.css">
-  <link rel="stylesheet" href="/css/layout.css">
-  <link rel="stylesheet" href="/css/content.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-
-  <!-- Favicon -->
-  <link rel="icon" href="/favicon-512x512.png" sizes="512x512" type="image/png">
-  <link rel="apple-touch-icon" href="/favicon-512x512.png">
-
   <!-- Open Graph -->
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description or site.description }}">
@@ -34,71 +24,19 @@
 
   <!-- Canonical URL -->
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "name": "{{ site.title }}",
-          "url": "{{ site.url }}",
-          "logo": "{{ site.logoUrl }}",
-          "description": "{{ site.description }}",
-          "sameAs": [
-            "{{ site.substackUrl }}"
-          ],
-          "publishingPrinciples": "{{ site.url }}/about/",
-          "founder": {
-            "@type": "Person",
-            "name": "{{ site.author }}",
-            "url": "{{ site.personalUrl }}",
-            "jobTitle": "Founder and Writer",
-            "sameAs": [
-              "{{ site.substackUrl }}",
-              "{{ site.linkedInUrl }}",
-              "{{ site.personalGithubUrl }}",
-              "{{ site.fromScratchGithubUrl }}",
-              "{{ site.codeUrl }}",
-              "{{ site.personalUrl }}"
-            ]
-          }
-        },
-        {
-          "@type": "WebSite",
-          "name": "{{ site.title }}",
-          "url": "{{ site.url }}",
-          "publisher": {
-            "@type": "Organization",
-            "name": "{{ site.title }}"
-          }
-        },
-        {
-          "@type": "Article",
-          "headline": "{{ title }}",
-          "description": "{{ description or site.description }}",
-          "author": {
-            "@type": "Person",
-            "name": "{{ site.author }}",
-            "url": "{{ site.personalUrl }}"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "{{ site.title }}",
-            "logo": {
-              "@type": "ImageObject",
-              "url": "{{ site.logoUrl }}"
-            }
-          },
-          "datePublished": "{{ page.date | essayDateFormat }}",
-          "dateModified": "{{ page.date | essayDateFormat }}",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "{{ site.url }}{{ page.url }}"
-          }
-        }
-      ]
-    }
-  </script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/content.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon-512x512.png" sizes="512x512" type="image/png">
+  <link rel="apple-touch-icon" href="/favicon-512x512.png">
+
+  {%- include 'json-ld.njk' %}
 
   <script src="https://unpkg.com/@hotwired/turbo"></script>
   <script defer data-domain="{{ site.domain }}" src="https://plausible.io/js/script.outbound-links.js"></script>
