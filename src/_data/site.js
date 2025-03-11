@@ -1,7 +1,6 @@
 const domain = "fromscratchpress.com"
 const url = `https://${domain}`
 const codeUrl = "https://fromscratchcode.com"
-const personalUrl = "https://tyleragreen.com"
 
 module.exports = {
   title: "from scratch press",
@@ -11,12 +10,13 @@ module.exports = {
   url,
   domain,
   codeUrl,
-  personalUrl,
+  personalUrl: "https://tyleragreen.com",
+  personalJobTitle: "Software Mentor, Tutor, and Writer",
   subscribeUrl: "/subscribe/",
   contactUrl: `${codeUrl}/contact/`,
   logoUrl: `${url}/favicon-512x512.png`,
   substackUrl: "https://fromscratchpress.substack.com/",
-  substackProfileUrl: "https://substack.com/@JonesBeach",
+  substackProfileUrl: "https://substack.com/@jonesbeach",
   linkedInUrl: "https://www.linkedin.com/in/tylergreen/",
   fromScratchGithubUrl: "https://github.com/JonesBeach",
   personalGithubUrl: "https://github.com/tyleragreen",
