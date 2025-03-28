@@ -15,4 +15,6 @@ This site is intentionally simple, fast, and open. I hope it helps you build you
 
 ## License
 
-MIT — see [LICENSE](LICENSE) for details.
+MIT. See [LICENSE](LICENSE) for details.
+
+**Note:** The essays in `src/essays/` are copyright © From Scratch Enterprises LLC and may not be reproduced or redistributed without permission. This license applies only to the code and configuration for the site itself.
