@@ -15,13 +15,13 @@ You may know me as Jones Beach—a place in New York I've never been—on [Subst
 
 ## Want a site like this?
 
-I built this from scratch using [Eleventy](https://www.11ty.dev/), and I’m available for freelance work if you need help setting up your own. I’d be happy to help you take control of your web traffic without disrupting your Substack.
+I built this from scratch using [Eleventy](https://www.11ty.dev/), and the source is available [on GitHub](https://github.com/JonesBeach/fromscratchpress-site). I’m available for freelance work if you need help setting up your own. I’d be happy to help you take control of your web traffic without disrupting your Substack.
 
-[Contact me]({{ site.contactUrl }}) for rates and availability.
+[Reach out here]({{ site.contactUrl }}) for rates and availability.
 
 ## Contact & Legal
 
-Contact me via [From Scratch Code]({{ site.contactUrl }})
+Need to get in touch? [Contact me here]({{ site.contactUrl }}).
 
 &copy; <span id="year"></span> {{ site.legalName }}
 

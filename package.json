@@ -1,14 +1,11 @@
 {
   "name": "fromscratchpress",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Tyler Green",
+  "license": "MIT",
+  "description": "Source code for fromscratchpress.com, a minimalist Eleventy site.",
   "scripts": {
     "build": "eleventy",
     "start": "eleventy --serve",
@@ -16,9 +13,7 @@
     "prod": "NODE_ENV=production eleventy"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
-  },
-  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "luxon": "^3.5.0"
   }
