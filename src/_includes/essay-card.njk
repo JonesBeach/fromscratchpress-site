@@ -1,5 +1,7 @@
 <li class="essay-item{% if featured %} featured-essay{% endif %}">
-  <a href="{{ post.url }}" class="essay-title">{{ post.data.title }}</a>
-  <p class="essay-description">{{ post.data.description }}</p>
+  <div>
+    <a href="{{ post.url }}" class="essay-title">{{ post.data.title }}</a>
+    <p class="essay-description">{{ post.data.description }}</p>
+  </div>
   <div class="essay-date">{{ post.date | essayDateFormat }}</div>
 </li>
