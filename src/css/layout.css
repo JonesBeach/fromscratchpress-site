@@ -49,6 +49,7 @@ main {
 
 /* Inner container to prevent content from stretching too wide */
 .main-inner {
+  /* Needed to keep pages with little text from collapsing. */
   width: 80%;
   max-width: 1000px;
 }

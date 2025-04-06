@@ -5,7 +5,7 @@ layout: "page.njk"
 
 Hey, I’m [Tyler]({{ site.personalUrl }}). I’m a software engineer and writer.
 
-I write about neurodivergence, meaningful work, and figuring out how to build a life that fits.
+I write about neurodivergence, meaningful work, and figuring out how to build a life that fits—hopefully in a ridiculous way.
 
 From Scratch Press is where I share essays about my inner life, self-employment, and the absurdity of it all. If that resonates, you can [subscribe here]({{ site.subscribeUrl }}).
 

@@ -10,7 +10,7 @@ p {
 
 /* Essay container */
 article {
-  max-width: 75%;
+  max-width: 65%;
   margin: 0 auto;
   background: var(--color-card-bg);
   padding: var(--spacing-large);
@@ -115,6 +115,12 @@ a:hover {
 
 .essay-title:hover {
   color: var(--color-primary-dark);
+}
+
+@media (max-width: 1024px) {
+  article {
+    max-width: 90%;
+  }
 }
 
 @media screen and (max-width: 768px) {
