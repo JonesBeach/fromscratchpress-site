@@ -3,7 +3,7 @@ const url = `https://${domain}`
 const codeUrl = "https://fromscratchcode.com"
 
 module.exports = {
-  title: "from scratch press",
+  title: "From Scratch Press",
   author: "Tyler Green",
   description: "Essays on neurodivergence, meaningful work, and building a life that fits.",
   legalName: "From Scratch Enterprises LLC",

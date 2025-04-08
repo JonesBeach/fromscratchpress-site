@@ -1,6 +1,8 @@
 const markdownIt = require("markdown-it");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const { DateTime } = require("luxon");
+const { feedPlugin } =  require("@11ty/eleventy-plugin-rss");
+const site = require("./src/_data/site");
 
 module.exports = function(eleventyConfig) {
   // Ensure Markdown is properly processed
@@ -8,7 +10,7 @@ module.exports = function(eleventyConfig) {
 
   // Define essays collection
   eleventyConfig.addCollection("essays", function(collectionApi) {
-    return collectionApi.getFilteredByTag("essays").reverse();
+    return collectionApi.getFilteredByTag("essays");
   });
 
   // Sliced collection for homepage
@@ -42,6 +44,23 @@ module.exports = function(eleventyConfig) {
   // Custom date filter using Luxon
   eleventyConfig.addFilter("essayDateFormat", (dateObj, format = "MMM dd, yyyy") => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(format);
+  });
+
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "rss",
+    outputPath: "/feed.xml",
+    collection: {
+      name: "essays",
+    },
+    metadata: {
+      language: "en",
+      title: site.title,
+      subtitle: site.description,
+      base: site.url,
+      author: {
+        name: site.author,
+      }
+    }
   });
 
   return {
