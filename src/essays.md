@@ -1,5 +1,5 @@
 ---
-title: "essays"
+title: "Essays"
 layout: "page.njk"
 ---
 
