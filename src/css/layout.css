@@ -118,7 +118,7 @@ main {
   text-transform: lowercase;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   main {
     margin-left: 0;
     padding: var(--spacing-medium);
