@@ -3,7 +3,7 @@ title: "About"
 layout: "page.njk"
 ---
 
-Hey, I’m [Tyler]({{ site.personalUrl }}). I’m a software engineer and writer.
+Hey, I’m [Tyler]({{ site.personalUrl }}). I’m a software engineer, technical mentor, and writer.
 
 I write about neurodivergence, meaningful work, and figuring out how to build a life that fits—hopefully in a ridiculous way.
 
