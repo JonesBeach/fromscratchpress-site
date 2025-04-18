@@ -1,7 +1,7 @@
 const markdownIt = require("markdown-it");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const { DateTime } = require("luxon");
-const { feedPlugin } =  require("@11ty/eleventy-plugin-rss");
+const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 const site = require("./src/_data/site");
 
 module.exports = function(eleventyConfig) {
@@ -23,6 +23,29 @@ module.exports = function(eleventyConfig) {
     return collectionApi.getFilteredByTag("featured")[0]; // take the first one
   });
 
+  // Define series
+  eleventyConfig.addCollection("series", function(collectionApi) {
+    const essays = collectionApi.getFilteredByTag("essays");
+
+    const seriesMap = {};
+
+    essays.forEach(post => {
+      const s = post.data.series;
+      if (!s) return;
+
+      if (!seriesMap[s]) {
+        seriesMap[s] = [];
+      }
+      seriesMap[s].push(post);
+    });
+
+    // Sort by date
+    for (const s in seriesMap) {
+      seriesMap[s].sort((a, b) => a.date - b.date);
+    }
+
+    return seriesMap;
+  });
 
   // Add sitemap plugin
   eleventyConfig.addPlugin(sitemap, {

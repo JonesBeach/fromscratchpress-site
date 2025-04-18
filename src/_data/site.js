@@ -20,4 +20,5 @@ module.exports = {
   linkedInUrl: "https://www.linkedin.com/in/tylergreen/",
   fromScratchGithubUrl: "https://github.com/JonesBeach",
   personalGithubUrl: "https://github.com/tyleragreen",
+  repoUrl: "https://github.com/JonesBeach/fromscratchpress-site",
 };
