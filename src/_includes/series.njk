@@ -1,0 +1,13 @@
+---
+layout: page.njk
+---
+
+{% set meta = seriesMeta[series] %}
+
+<p>{{ meta.description }}</p>
+
+<ul class="essays-list">
+  {%- for post in collections.series[series] -%}
+    {%- include "essay-card.njk" -%}
+  {%- endfor -%}
+</ul>

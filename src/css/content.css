@@ -21,10 +21,6 @@ p {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.series-nav {
-  margin-top: 30px;
-}
-
 article p {
   /* Use the container padding */
   margin-bottom: 0;
@@ -81,9 +77,40 @@ hr {
   color: #222;
 }
 
+.series-nav {
+  margin-top: var(--spacing-large);
+}
+
 .subscribe-cta {
   margin-top: var(--spacing-large);
   text-align: center;
+}
+
+
+.series-nav p {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-small);
+  text-align: center;
+}
+
+.series-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: var(--spacing-medium);
+}
+
+.series-nav li {
+  text-align: center;
+  margin-bottom: 0.9rem;
+  font-size: 0.9rem;
+}
+
+.series-nav li.current {
+  font-weight: 600;
+  cursor: default;
 }
 
 /* Links */

@@ -19,7 +19,7 @@ layout: "base.njk"
     <ul>
       {% for post in collections.series[series] %}
         {% if post.url == permalink %}
-        <li>{{ post.data.title }}</li>
+        <li class="current">{{ post.data.title }}</li>
         {% else %}
         <li>
           <a href="{{ post.url }}">{{ post.data.title }}</a>
