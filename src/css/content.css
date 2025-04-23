@@ -12,9 +12,12 @@ p {
   color: var(--color-text-light);
 }
 
-.content-bubble {
+.inner-container {
   max-width: 65%;
   margin: 0 auto;
+}
+
+.content-bubble {
   background: var(--color-card-bg);
   padding: var(--spacing-large);
   border-radius: 8px;
@@ -169,7 +172,7 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  .content-bubble {
+  .inner-container {
     max-width: 100%;
   }
 }

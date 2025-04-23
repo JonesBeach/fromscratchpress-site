@@ -2,7 +2,7 @@
 layout: "base.njk"
 ---
 
-<article class="content-bubble">
+<article class="content-bubble inner-container">
     <h1>{{ title }}</h1>
     <p class="essay-description">{{ description }}</p>
     <p class="essay-metadata">{{ date | essayDateFormat }}</p>
@@ -14,7 +14,7 @@ layout: "base.njk"
 {% if series %}
   {%- set currentSeries = seriesMeta[series] -%}
   {%- if currentSeries -%}
-  <div class="series-nav content-bubble">
+  <div class="series-nav content-bubble inner-container">
     <p>More from: <a href="/series/{{ series }}/">{{ currentSeries.title }}</a></p>
     <ul>
       {% for post in collections.series[series] %}
@@ -30,6 +30,8 @@ layout: "base.njk"
   </div>
   {% endif %}
 {% endif %}
-<div class="subscribe-cta">
-  <p>Want more essays like this? <a href="{{ site.subscribeUrl }}">Subscribe here</a>.</p>
+<div class="subscribe-cta inner-container">
+  <p>Want more essays like this? Subscribe to receive new pieces directly to your inbox.</p>
+  {% set compact = true %}
+  {%- include "subscribe-embed.njk" -%}
 </div>
