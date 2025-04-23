@@ -4,6 +4,17 @@ const { DateTime } = require("luxon");
 const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 const site = require("./src/_data/site");
 
+const passthroughPaths = [
+  // Copy robots.txt for SEO
+  "src/robots.txt",
+  // Copy static files (CSS)
+  "src/css",
+  // Pass through favicon and Open Graph image
+  "src/favicon-512x512.png",
+  "src/og_banner_image.png",
+  "src/images",
+];
+
 module.exports = function(eleventyConfig) {
   // Ensure Markdown is properly processed
   eleventyConfig.setLibrary("md", markdownIt({ html: true }));
@@ -54,15 +65,7 @@ module.exports = function(eleventyConfig) {
     },
   });
 
-  // Copy robots.txt for SEO
-  eleventyConfig.addPassthroughCopy("src/robots.txt");
-
-  // Copy static files (CSS)
-  eleventyConfig.addPassthroughCopy("src/css");
-
-  // Pass through favicon and Open Graph image
-  eleventyConfig.addPassthroughCopy("src/favicon-512x512.png");
-  eleventyConfig.addPassthroughCopy("src/og_banner_image.png");
+  passthroughPaths.forEach(path => eleventyConfig.addPassthroughCopy(path));
 
   // Custom date filter using Luxon
   eleventyConfig.addFilter("essayDateFormat", (dateObj, format = "MMM dd, yyyy") => {
