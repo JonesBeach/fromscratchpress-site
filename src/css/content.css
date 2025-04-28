@@ -24,6 +24,13 @@ p {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+.url-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
 article p {
   /* Use the container padding */
   margin-bottom: 0;

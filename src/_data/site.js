@@ -21,4 +21,5 @@ module.exports = {
   fromScratchGithubUrl: "https://github.com/JonesBeach",
   personalGithubUrl: "https://github.com/tyleragreen",
   repoUrl: "https://github.com/JonesBeach/fromscratchpress-site",
+  novellaUrl: "https://www.amazon.com/dp/B0F6FV3LFW",
 };
