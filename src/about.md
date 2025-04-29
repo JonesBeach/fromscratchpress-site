@@ -9,7 +9,7 @@ I write about neurodivergence, meaningful work, and figuring out how to build a 
 
 From Scratch Press is where I share essays about my inner life, self-employment, and the absurdity of it all. If that resonates, you can [subscribe here]({{ site.subscribeUrl }}).
 
-I write and offer personalized mentorship at [From Scratch Code]({{ site.codeUrl }}).
+I offer personalized mentorship at [From Scratch Code]({{ site.codeUrl }}).
 
 You may know me as Jones Beach—a place in New York I've never been—on [Substack]({{ site.substackProfileUrl }}) and [GitHub]({{ site.fromScratchGithubUrl }}).
 

@@ -14,7 +14,10 @@ Ridiculous essays on neurodivergence, meaningful work, and building a life that 
     {%- include "essay-card.njk" -%}
     {%- set featured = false -%}
   {%- endif -%}
+</ul>
 
+## Latest Essays
+<ul class="essays-list">
   {%- for post in collections.latestEssays -%}
     {%- include "essay-card.njk" -%}
   {%- endfor -%}
