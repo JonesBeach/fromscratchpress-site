@@ -13,7 +13,7 @@ layout: "page.njk"
       <a href="{{ site.novellaUrl }}" class="url-button" style="background-color: var(--color-primary); color: white;">Buy on Amazon</a>
     </p>
     <p>
-      <a href="/series/lake-effect-coffee/" class="url-button" style="background-color: var(--color-dark-gray); color: white;">Read for free on From Scratch Press</a>
+      <a href="/lake-effect-coffee-chapter-1/" class="url-button" style="background-color: var(--color-dark-gray); color: white;">Read a Preview - Free!</a>
     </p>
   </div>
 </section>
