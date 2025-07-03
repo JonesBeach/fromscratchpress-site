@@ -5,11 +5,11 @@ layout: "page.njk"
 
 Hey, I’m [Tyler]({{ site.personalUrl }}). I’m a software engineer, technical mentor, and writer.
 
-I write about neurodivergence, meaningful work, and figuring out how to build a life that fits—hopefully in a ridiculous way.
+From Scratch Press is where I write about neurodivergence, meaningful work, and figuring out how to build a life that fits—hopefully in a ridiculous way. If that resonates, you can [subscribe here]({{ site.subscribeUrl }}).
 
-From Scratch Press is where I share essays about my inner life, self-employment, and the absurdity of it all. If that resonates, you can [subscribe here]({{ site.subscribeUrl }}).
+If you ever need someone to talk to, you can [book a coffee chat](/coffee-chats/). It’s not therapy or coaching. It's just real talk.
 
-I offer personalized mentorship at [From Scratch Code]({{ site.codeUrl }}).
+I offer software mentorship for the quietly subversive at [From Scratch Code]({{ site.codeUrl }}).
 
 You may know me as Jones Beach—a place in New York I've never been—on [Substack]({{ site.substackProfileUrl }}) and [GitHub]({{ site.fromScratchGithubUrl }}).
 
