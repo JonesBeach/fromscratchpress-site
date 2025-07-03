@@ -22,4 +22,5 @@ module.exports = {
   personalGithubUrl: "https://github.com/tyleragreen",
   repoUrl: "https://github.com/JonesBeach/fromscratchpress-site",
   novellaUrl: "https://www.amazon.com/dp/B0F6FV3LFW",
+  coffeeChatUrl: "https://calendly.com/tyler-fromscratch/coffee-chat",
 };
