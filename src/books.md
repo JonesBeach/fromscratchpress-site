@@ -12,7 +12,7 @@ layout: "page.njk"
   </div>
   
   <!-- Right: Book description and links -->
-  <div style="flex: 1; min-width: 400px;">
+  <div style="flex: 1">
     <h2 style="margin-top: 0">Lake-Effect Coffee</h2>
     <h3>A workplace novella told with friendship, absurdity, and drip coffee.</h3>
     <p>A man quits his job, and then convinces his two best friends to do the same. They open a coffee shop on wheels. It’s a terrible idea, but maybe that’s the point.</p>
