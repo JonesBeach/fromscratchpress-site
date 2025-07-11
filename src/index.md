@@ -6,6 +6,8 @@ layout: "base.njk"
 
 {{ site.description }}
 
+<p><strong>Currently</strong>: <i><a href="https://fromscratchpress.substack.com/p/the-half-pint-pilgrimage">The Half Pint Pilgrimage</a></i>
+
 <ul class="essays-list">
   {%- set featuredEssay = collections.featuredEssay -%}
   {%- if featuredEssay -%}

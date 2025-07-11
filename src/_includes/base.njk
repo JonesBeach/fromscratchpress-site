@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>{{ title if title else site.title }}{% if title %} | {{ site.title }}{% endif %}</title>
+  <title>{{ title if title else site.title }} | {{ site.title if title else site.shortDescription }}</title>
   <meta name="description" content="{{ description or site.description }}">
   <meta name="author" content="{{ site.author }}">
 
