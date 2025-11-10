@@ -8,7 +8,7 @@
   "description": "Source code for fromscratchpress.com, a minimalist Eleventy site.",
   "scripts": {
     "build": "eleventy",
-    "start": "eleventy --serve",
+    "dev": "eleventy --serve",
     "watch": "eleventy --watch",
     "prod": "NODE_ENV=production eleventy"
   },
