@@ -9,7 +9,7 @@ From Scratch Press is where I write about neurodivergence, meaningful work, and 
 
 If you ever need someone to talk to, you can [book a coffee chat](/coffee-chats/). It’s not therapy or coaching. It's just real talk.
 
-I offer software mentorship for the quietly subversive at [From Scratch Code]({{ site.codeUrl }}).
+I offer software mentorship for quietly ambitious engineers at [From Scratch Code]({{ site.codeUrl }}).
 
 You may know me as Jones Beach—a place in New York I've never been—on [Substack]({{ site.substackProfileUrl }}) and [GitHub]({{ site.fromScratchGithubUrl }}).
 
