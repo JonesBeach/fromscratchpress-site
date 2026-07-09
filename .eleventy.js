@@ -26,7 +26,7 @@ module.exports = function(eleventyConfig) {
 
   // Sliced collection for homepage
   eleventyConfig.addCollection("latestEssays", function(collectionApi) {
-    return collectionApi.getFilteredByTag("essays").reverse().slice(0, 2);
+    return collectionApi.getFilteredByTag("essays").reverse().slice(0, 4);
   });
 
   // One featured post

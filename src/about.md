@@ -3,21 +3,17 @@ title: "About"
 layout: "page.njk"
 ---
 
-Hey, I’m [Tyler]({{ site.personalUrl }}). I’m a software engineer, technical mentor, and writer.
+Hey, I’m [Tyler]({{ site.personalUrl }}). I’m a New York City-based software engineer, technical mentor, and writer.
 
-From Scratch Press is where I write about neurodivergence, meaningful work, and figuring out how to build a life that fits—hopefully in a ridiculous way. If that resonates, you can [subscribe here]({{ site.subscribeUrl }}).
+From Scratch Press is where I write about technical depth, neurodivergence, local belonging, and building a life outside the usual scripts.
+
+Lately that has meant [leaving my 9-5](/why-i-left-my-9-5-for-good/), chasing third places from [Leeds to New York](https://fromscratchpress.substack.com/p/the-half-pint-pilgrimage), and [rebuilding Python from scratch](https://fromscratchcode.com/memphis/).
+
+If any part of that resonates, you can [subscribe here]({{ site.subscribeUrl }}).
 
 If you ever need someone to talk to, you can [book a coffee chat](/coffee-chats/). It’s not therapy or coaching. It's just real talk.
 
-I offer software mentorship for quietly ambitious engineers at [From Scratch Code]({{ site.codeUrl }}).
-
-You may know me as Jones Beach—a place in New York I've never been—on [Substack]({{ site.substackProfileUrl }}) and [GitHub]({{ site.fromScratchGithubUrl }}).
-
-## Want a site like this?
-
-I built this from scratch using [Eleventy](https://www.11ty.dev/), and the source is available [on GitHub]({{ site.repoUrl }}). I’m available for freelance work if you need help setting up your own. I’d be happy to help you take control of your web traffic without disrupting your Substack.
-
-[Reach out here]({{ site.contactUrl }}) for rates and availability.
+When I'm not writing, I offer software mentorship for quietly ambitious engineers at [From Scratch Code]({{ site.codeUrl }}).
 
 ## Contact & Legal
 
