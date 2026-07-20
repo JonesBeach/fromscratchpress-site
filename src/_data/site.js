@@ -5,8 +5,8 @@ const codeUrl = "https://fromscratchcode.com"
 module.exports = {
   title: "From Scratch Press",
   author: "Tyler Green",
-  description: "Essays on technical depth outside the 9-to-5, local belonging built one relationship at a time, and building a life outside the usual scripts.",
-  shortDescription: "Technical depth outside the 9-to-5. Local belonging built one relationship at a time. A life beyond the usual scripts.",
+  description: "I left my 9-5 so I could keep working. Essays on code, work, and belonging.",
+  shortDescription: "I left my 9-5 so I could keep working. Essays on code, work, and belonging.",
   legalName: "From Scratch Enterprises LLC",
   url,
   domain,
